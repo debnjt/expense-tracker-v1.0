@@ -1,12 +1,3 @@
-''' Future Enhancements: 
-	a. input validation, request user to enter output .txt filename
-	b. category (food, grocery, education) -> input/filter by category, auto sort expense description into correct category based on nlp
-	c. calculate monthly, yearly total expense
-	d. create masterlist by opening local text file then appending all new records to this masterlist
-	e. add user interface (colors, buttons) 
-	f. split code into more granular functions (1 file for functions, 1 file for main())
-'''
-
 # FUNCTIONS
 # Export search results to text file
 def export(array, total_amt):
